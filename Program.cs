@@ -41,10 +41,15 @@ namespace Comp003A.Assignment6;
             Vehicle vehicle4 = new Truck(truckNumberOfWheels: 4, truckBrand: "Ford", truckModel: "F-150 Raptor", sizeOfTruckBed: 5.5);
             vehicle4.GetInfo();
             }
+
+            /// <summary>
+            /// Just a section separator
+            /// </summary>
+            /// <param name="sectionName">String input for section name</param>
             static void PrintSeparator(string sectionName)
              {
                 Console.WriteLine("".PadRight(50, '*'));
-                Console.WriteLine($"\t(sectionName) Section");
+                Console.WriteLine($"\t{sectionName} Section");
                 Console.WriteLine("".PadRight(50, '*'));
              }
 
