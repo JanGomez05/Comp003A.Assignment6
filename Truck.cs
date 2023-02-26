@@ -24,12 +24,12 @@ namespace Comp003A.Assignment6
         public Truck(string truckBrand, string truckModel, int truckNumberOfWheels,
         double sizeOfTruckBed) : base(truckBrand, truckModel, truckNumberOfWheels)
         {
-            double SizeOfTruckBed = sizeOfTruckBed;
+           SizeOfTruckBed = sizeOfTruckBed;
         }
 
 
         /***** properties section *****/
-        public double SizeOfTruckbed
+        public double SizeOfTruckBed
         {
             get { return _sizeOfTruckBed; }
             set { _sizeOfTruckBed = value; }
@@ -44,7 +44,7 @@ namespace Comp003A.Assignment6
         {
             Console.WriteLine($"Im a {nameof(Truck)}.");
             base.GetInfo();
-            Console.WriteLine($"I also have a {SizeOfTruckbed} ft truck bed");
+            Console.WriteLine($"I also have a {SizeOfTruckBed} ft truck bed");
 
         }
     }

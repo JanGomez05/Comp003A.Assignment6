@@ -32,16 +32,16 @@ namespace Comp003A.Assignment6;
             // if the class you are instantiating has constructor that takes parameters
             // then you can simplify the value assignment by passing those values
             // using the syntax below
-            Vehicle vehicle3 = new Truck("GMC", "Sierra 1500 AT4", 6, 5.5);
+            Vehicle vehicle3 = new Truck("GMC", "Sierra 1500 AT4", 6, 5.5 );
             vehicle3.GetInfo();
 
             PrintSeparator("vehicle4");
             // alternatively, you may use the syntax below, if for some reason your arguments are not in the specific sequence
             // use the syntax below
-            Vehicle vehicle4 = new Truck(truckNumberOfWheels: 4, truckBrand: "Ford", truckModel: "F-150 Raptor", sizeOfTruckBed: 5.5);
+            Vehicle vehicle4 = new Truck(truckNumberOfWheels: 4, truckBrand: "Ford", truckModel: "F-150 Raptor", sizeOfTruckBed: 5.5 );
             vehicle4.GetInfo();
             }
-
+    
             /// <summary>
             /// Just a section separator
             /// </summary>

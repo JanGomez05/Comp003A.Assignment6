@@ -14,6 +14,9 @@ namespace Comp003A.Assignment6
         private string _brand;
         private string _model;
         private int _numberOfWheels;
+
+
+
         /***** constructors section *****/
         /// <summary>
         /// Default Constructor
@@ -22,6 +25,8 @@ namespace Comp003A.Assignment6
         {
 
         }
+
+
             /// <summary>
             /// Constructor that takes three parameters: brand, model, numberOfWheels
             /// </summary>
@@ -67,8 +72,8 @@ namespace Comp003A.Assignment6
          {
             Console.WriteLine($"Brand: {Brand}");
             Console.WriteLine($"Model: {Model}");
-            Console.WriteLine($"NUmber of Wheels: {NumberOfWheels}");
-             }
+            Console.WriteLine($"Number of Wheels: {NumberOfWheels}");
+         }
     }
 }
 
